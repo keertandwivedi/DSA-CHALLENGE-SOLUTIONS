@@ -1,0 +1,10 @@
+# C++ executables
+*.exe
+*.out
+
+# Java compiled files
+*.class
+
+# IDE files
+.vscode/
+.vs/
