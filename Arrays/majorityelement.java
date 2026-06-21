@@ -46,8 +46,22 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] a = {2, 200, 2, 2, 4, 3, 1, 2, 1, 2, 1, 1};
+        public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
 
-        System.out.println(majorityElement(a));
+        Solution obj = new Solution();
+        obj.rotateClockwise(matrix);
+
+        // Print rotated matrix
+        for (int[] row : matrix) {
+            for (int val : row)
+                System.out.print(val + " ");
+            System.out.println();
+        }
+    }
     }
 }
